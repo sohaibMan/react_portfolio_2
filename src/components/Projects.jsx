@@ -6,6 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
+import { AiFillGithub } from "react-icons/ai";
+
 import { Autoplay, Pagination } from "swiper";
 import { context } from "../App";
 import { useContext } from "react";
@@ -50,13 +52,20 @@ const Projects = () => {
               >
                 <a href={content.link} target="_blank">
                   <img src={content.image} alt="..." />
-                  <div className="flex flex-col gap-1 mt-2">
-                    <h5 className="font-bold font-Poppins">{content.title}</h5>
-                    <button className="font-bold text-gray self-end">
-                      Click me to visit
-                    </button>
-                  </div>
                 </a>
+                <div className="flex justify-between gap-1 mt-2">
+                  <h5 className="font-bold font-Poppins">{content.title}</h5>
+                  {content.githubLink && (
+                    <a
+                      target="_blank"
+                      href={content.githubLink}
+                      alt="github source code"
+                      className="font-bold text-gray self-end"
+                    >
+                      <AiFillGithub style={{ height: "24", width: "24" }} />
+                    </a>
+                  )}
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
