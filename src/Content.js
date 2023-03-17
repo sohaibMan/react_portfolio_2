@@ -353,7 +353,7 @@ export const content = {
     },
     Contact: {
       title: "Contact Me",
-      subtitle: "LET'S GET IN TOUCH",
+      // subtitle: "LET'S GET IN TOUCH"
       social_media,
     },
     Certifications: {
@@ -489,34 +489,40 @@ export const content = {
       subtitle: "Ma création",
       project_content: [
         {
-          title: "Club Website",
+          title: "SiteWeb d'un Club",
           link: "https://itgeeks.social/",
           image: project1,
+          githubLink: "https://github.com/ItGeeks-fstt/itgeeks",
         },
         {
-          title: "Multiform Registration page",
+          title: "Page d'inscription multiforme",
           image: project2,
           link: "https://registration.itgeeks.social/",
+          githubLink: "https://github.com/ItGeeks-fstt/itgeeksinscription",
         },
         {
-          title: "Recipe App(Hackathon)",
+          title: "Application de recettes (Hackathon)",
           link: "https://rich-lime-piglet-tam.cyclic.app/#5ed6604591c37cdc054bcf74",
           image: project3,
+          githubLink: "https://github.com/sohaibMan/FORKIFY-FIND-YOUR-RECIPE",
         },
         {
           title: "Natours (tourism website)",
           link: "https://sohaibman.github.io/Natours.github.io/",
           image: project4,
+          githubLink: "https://github.com/sohaibMan/Natours.github.io",
         },
         {
-          title: "Meal delivered",
+          title: "Repas livré",
           link: "https://sohaibman.github.io/Omifood.github.io/",
           image: project5,
+          githubLink: "https://github.com/sohaibMan/Omifood.github.io",
         },
         {
-          title: "Bankist (bank website for learning purpose)",
+          title: "Bankist (site web de la banque)",
           link: "https://sohaibman.github.io/Bankist.github.io/",
           image: project6,
+          githubLink: "https://github.com/sohaibMan/Bankist.github.io",
         },
       ],
     },
