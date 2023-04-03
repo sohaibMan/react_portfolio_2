@@ -10,6 +10,7 @@ import linux from "./assets/images/Skills/linux.png";
 import git from "./assets/images/Skills/git.png";
 import datastructure from "./assets/images/Skills/datastructure.png";
 import laravel from "./assets/images/Skills/laravel.png";
+import symfony from "./assets/images/Skills/symfony.png";
 import postman from "./assets/images/Skills/postman.png";
 import java from "./assets/images/Skills/java.png";
 import uml from "./assets/images/Skills/uml.png";
@@ -36,8 +37,8 @@ import project5 from "./assets/images/Projects/img5.png";
 import project6 from "./assets/images/Projects/img6.png";
 // import person_project from "./assets/images/Projects/person.png";
 
-// import avatar1 from "./assets/images/Testimonials/avatar1.png";
-// import avatar2 from "./assets/images/Testimonials/avatar2.png";
+import avatar1 from "./assets/images/Testimonials/avatar1.png";
+import avatar2 from "./assets/images/Testimonials/avatar2.png";
 // import avatar3 from "./assets/images/Testimonials/avatar3.png";
 // import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
@@ -52,6 +53,7 @@ import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
+import { SiUpwork } from "react-icons/si";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 // import { MdOutlinePermContactCalendar } from "react-icons";
 import { AiFillGithub } from "react-icons/ai";
@@ -110,9 +112,9 @@ const social_media = [
     link: "https://www.instagram.com/sohaib_manah/",
   },
   {
-    text: "sohaib_manah",
-    icon: AiFillTwitterCircle,
-    link: "https://twitter.com/sohaib_manah",
+    text: "sohaib M",
+    icon: SiUpwork,
+    link: "https://www.upwork.com/freelancers/~010a44723a9108a1bc",
   },
 ];
 const cert_content = [
@@ -187,11 +189,16 @@ export const content = {
           para: "with Redux - Hooks- Material UI - Typescript - Tailwind css",
           logo: reactjs,
         },
-        {
-          name: "Php | laravel",
-          para: "with MVC & OOP & REST API",
-          logo: laravel,
-        },
+        // {
+        //   name: "Laravel  ",
+        //   para: "REST API",
+        //   logo: laravel,
+        // },
+        // {
+        //   name: "Symfony ",
+        //   para: "REST API",
+        //   logo: symfony,
+        // },
         {
           name: "MySql | PostgreSql",
           para: "and relational data modeling with UML & ERD & MERISE ",
@@ -313,36 +320,24 @@ export const content = {
         },
       ],
     },
-    // Testimonials: {
-    //   title: "Testimonials",
-    //   subtitle: "MY CLIENT REVIEWS",
-    //   testimonials_content: [
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar1,
-    //       name: "JOHN DOE",
-    //     },
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar2,
-    //       name: "Tom Alex",
-    //     },
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar3,
-    //       name: "Johnny",
-    //     },
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar4,
-    //       name: "ROBBIN",
-    //     },
-    //   ],
-    // },
+    Testimonials: {
+      title: "Testimonials",
+      subtitle: "MY CLIENT REVIEWS",
+      testimonials_content: [
+        {
+          review:
+            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          img: avatar1,
+          name: "bougeons ensemble ",
+        },
+        {
+          review:
+            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          img: avatar2,
+          name: "It Geeks",
+        },
+      ],
+    },
     Aboutme: {
       title: "About Me",
       subtitle: "Hello Dear,This is a brief introduction about me",
@@ -400,11 +395,16 @@ export const content = {
           para: "avec Redux - Hooks- Material UI - Typescript - Tailwind css",
           logo: reactjs,
         },
-        {
-          name: "Php | laravel",
-          para: "avec MVC & OOP & REST API",
-          logo: laravel,
-        },
+        // {
+        //   name: "Laravel  ",
+        //   para: "REST API",
+        //   logo: laravel,
+        // },
+        // {
+        //   name: "Symfony ",
+        //   para: "REST API",
+        //   logo: symfony,
+        // },
         {
           name: "MySql | PostgreSql",
           para: "plus la modélisation de données relationnelles avec UML & ERD & MERISE ",
@@ -526,36 +526,24 @@ export const content = {
         },
       ],
     },
-    // Testimonials: {
-    //   title: "Testimonials",
-    //   subtitle: "MY CLIENT REVIEWS",
-    //   testimonials_content: [
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar1,
-    //       name: "JOHN DOE",
-    //     },
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar2,
-    //       name: "Tom Alex",
-    //     },
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar3,
-    //       name: "Johnny",
-    //     },
-    //     {
-    //       review:
-    //         "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-    //       img: avatar4,
-    //       name: "ROBBIN",
-    //     },
-    //   ],
-    // },
+    Testimonials: {
+      title: "Testimonials",
+      subtitle: "MY CLIENT REVIEWS",
+      testimonials_content: [
+        {
+          review:
+            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          img: avatar1,
+          name: "bougeons ensemble ",
+        },
+        {
+          review:
+            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          img: avatar2,
+          name: "It Geeks",
+        },
+      ],
+    },
     Aboutme: {
       title: "A propos de moi",
       subtitle: "Bonjour Cher,Ceci est une brève introduction sur moi",

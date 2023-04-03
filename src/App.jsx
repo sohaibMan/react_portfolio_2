@@ -4,7 +4,7 @@ import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
 import Service from "./components/Services";
 import Projects from "./components/Projects";
-// import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/Testimonials";
 import Aboutme from "./components/Aboutme";
 import Contact from "./components/Contact";
 import { createContext, useEffect, useState } from "react";
@@ -40,7 +40,7 @@ const App = () => {
       <Certifications />
       <Service />
       <Projects />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Contact />
     </context.Provider>
   );
