@@ -332,9 +332,9 @@ export const content = {
         },
         {
           review:
-            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+            "“As a team leader of a club, I know how important it is to work with reliable, flexible, and responsive individuals, and sohaib certainly demonstrated these qualities throughout the entire project.  Their expertise and attention to detail were invaluable”",
           img: avatar2,
-          name: "It Geeks",
+          name: "Manal Z. It Geeks's team leader",
         },
       ],
     },
@@ -527,8 +527,8 @@ export const content = {
       ],
     },
     Testimonials: {
-      title: "Testimonials",
-      subtitle: "MY CLIENT REVIEWS",
+      title: "Témoignages",
+      subtitle: "ÉVALUATIONS DE MES CLIENTS",
       testimonials_content: [
         {
           review:
@@ -538,9 +538,9 @@ export const content = {
         },
         {
           review:
-            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+            "“En tant que chef d'équipe d'un club, je sais à quel point il est important de travailler avec des personnes fiables, flexibles et réactives, et sohaib a certainement démontré ces qualités tout au long du projet.  Leur expertise et leur souci du détail étaient inestimables.”",
           img: avatar2,
-          name: "It Geeks",
+          name: "Manal Z. chef d'équipe d'It Geeks",
         },
       ],
     },
