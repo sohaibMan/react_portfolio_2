@@ -9,14 +9,15 @@ import cpp from "./assets/images/Skills/cpp.png";
 import linux from "./assets/images/Skills/linux.png";
 import git from "./assets/images/Skills/git.png";
 import datastructure from "./assets/images/Skills/datastructure.png";
-import laravel from "./assets/images/Skills/laravel.png";
-import symfony from "./assets/images/Skills/symfony.png";
+// import laravel from "./assets/images/Skills/laravel.png";
+// import symfony from "./assets/images/Skills/symfony.png";
 import postman from "./assets/images/Skills/postman.png";
 import java from "./assets/images/Skills/java.png";
 import uml from "./assets/images/Skills/uml.png";
 import typescript from "./assets/images/Skills/typescript.png";
 import teamwork from "./assets/images/Skills/teamwork.png";
 import python from "./assets/images/Skills/python.png";
+// import flask from "./assets/images/Skills/flask.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -199,6 +200,11 @@ export const content = {
         //   para: "REST API",
         //   logo: symfony,
         // },
+        // {
+        //   name: "flask",
+        //   para: "REST API",
+        //   logo: flask,
+        // },
         {
           name: "MySql | PostgreSql",
           para: "and relational data modeling with UML & ERD & MERISE ",
@@ -324,12 +330,12 @@ export const content = {
       title: "Testimonials",
       subtitle: "MY CLIENT REVIEWS",
       testimonials_content: [
-        {
-          review:
-            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-          img: avatar1,
-          name: "bougeons ensemble ",
-        },
+        // {
+        //   review:
+        //     "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        //   img: avatar1,
+        //   name: "bougeons ensemble ",
+        // },
         {
           review:
             "“As a team leader of a club, I know how important it is to work with reliable, flexible, and responsive individuals, and sohaib certainly demonstrated these qualities throughout the entire project.  Their expertise and attention to detail were invaluable”",
@@ -530,12 +536,12 @@ export const content = {
       title: "Témoignages",
       subtitle: "ÉVALUATIONS DE MES CLIENTS",
       testimonials_content: [
-        {
-          review:
-            "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-          img: avatar1,
-          name: "bougeons ensemble ",
-        },
+        // {
+        //   review:
+        //     "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        //   img: avatar1,
+        //   name: "Yassir Z. bougeons ensemble CEO | fondateur",
+        // },
         {
           review:
             "“En tant que chef d'équipe d'un club, je sais à quel point il est important de travailler avec des personnes fiables, flexibles et réactives, et sohaib a certainement démontré ces qualités tout au long du projet.  Leur expertise et leur souci du détail étaient inestimables.”",
