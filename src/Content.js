@@ -18,6 +18,7 @@ import typescript from "./assets/images/Skills/typescript.png";
 import teamwork from "./assets/images/Skills/teamwork.png";
 import python from "./assets/images/Skills/python.png";
 // import flask from "./assets/images/Skills/flask.png";
+import graphql from "./assets/images/Skills/graphql.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -205,6 +206,11 @@ export const content = {
         //   para: "REST API",
         //   logo: flask,
         // },
+        {
+          name: "Graphql",
+          para: "With Apollo server/client",
+          logo: graphql,
+        },
         {
           name: "MySql | PostgreSql",
           para: "and relational data modeling with UML & ERD & MERISE ",
