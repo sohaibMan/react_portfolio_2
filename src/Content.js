@@ -473,6 +473,11 @@ export const content = {
           para: "avec la Théorie des graphes",
           logo: python,
         },
+        {
+          name: "Graphql",
+          para: "avec la apollo client/serveurs",
+          logo: graphql,
+        },
       ],
     },
     services: {
