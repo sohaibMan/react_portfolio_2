@@ -30,7 +30,7 @@ const Testimonials = () => {
             clickable: true,
           }}
           data-aos="fade-up"
-          // loop={true}
+          loop={true}
           spaceBetween={40}
           slidesPerView={1.7}
           onSlideChange={(e) => {
@@ -44,7 +44,7 @@ const Testimonials = () => {
             <SwiperSlide key={i}>
               <div
                 className={` duration-500 bg-bg_light_primary mx-8 border-2 
-              p-8 h-full rounded-2xl flex items-center gap-6
+              p-8  rounded-2xl flex items-center gap-6
                border-slate-200 md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
               >

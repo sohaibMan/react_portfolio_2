@@ -50,11 +50,11 @@ import Hireme_person from "./assets/images/Hireme/person.png";
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { GiSkills } from "react-icons/gi";
-import { MdOutlinePermContactCalendar, MdCall } from "react-icons/md";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import { AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import { SiUpwork } from "react-icons/si";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 // import { MdOutlinePermContactCalendar } from "react-icons";
@@ -336,15 +336,15 @@ export const content = {
       title: "Testimonials",
       subtitle: "MY CLIENT REVIEWS",
       testimonials_content: [
-        // {
-        //   review:
-        //     "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        //   img: avatar1,
-        //   name: "bougeons ensemble ",
-        // },
         {
           review:
-            "“As a team leader of a club, I know how important it is to work with reliable, flexible, and responsive individuals, and sohaib certainly demonstrated these qualities throughout the entire project.  Their expertise and attention to detail were invaluable”",
+            "“Thank you for reaching out and for your great work on our website for \"Bougeons Ensemble\".  we are very satisfied with the final product.Your expertise and professionalism were invaluable to our project, and I have no doubt that you will continue to provide excellent services ”",
+          img: avatar1,
+          name: "Mohamed E. Bougeons ensemble's designer ",
+        },
+        {
+          review:
+            "“I know how important it is to work with reliable, flexible, and responsive individuals, and Sohaib certainly demonstrated these qualities throughout the entire project.  Their expertise and attention to detail were invaluable”",
           img: avatar2,
           name: "Manal Z. It Geeks's team leader",
         },
@@ -547,15 +547,15 @@ export const content = {
       title: "Témoignages",
       subtitle: "ÉVALUATIONS DE MES CLIENTS",
       testimonials_content: [
-        // {
-        //   review:
-        //     "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        //   img: avatar1,
-        //   name: "Yassir Z. bougeons ensemble CEO | fondateur",
-        // },
         {
           review:
-            "“En tant que chef d'équipe d'un club, je sais à quel point il est important de travailler avec des personnes fiables, flexibles et réactives, et sohaib a certainement démontré ces qualités tout au long du projet.  Leur expertise et leur souci du détail étaient inestimables.”",
+              "“Merci d’avoir communiqué avec nous et de l’excellent travail que vous avez accompli sur notre site Web pour « Bougeons Ensemble ».  nous sommes très satisfaits du produit final, votre expertise et votre professionnalisme ont été inestimables pour notre projet, et je n’ai aucun doute que vous continuerez à offrir d’excellents services.“",
+          img: avatar1,
+          name: "Mohamed E. Bougeons ensemble club ",
+        },
+        {
+          review:
+            "“Je sais à quel point il est important de travailler avec des personnes fiables, flexibles et réactives, et Sohaib a certainement démontré ces qualités tout au long du projet.  Leur expertise et leur souci du détail étaient inestimables",
           img: avatar2,
           name: "Manal Z. chef d'équipe d'It Geeks",
         },
