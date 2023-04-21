@@ -51,7 +51,7 @@ const Projects = () => {
                                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
                             >
                                 <a href={content.link} target="_blank">
-                                    <img src={content.image} alt="..."/>
+                                    <img loading="lazy" src={content.image} alt="..."/>
                                 </a>
                                 <div className="flex justify-between gap-1 mt-2">
                                     <h5 className="font-bold font-Poppins">{content.title}</h5>
