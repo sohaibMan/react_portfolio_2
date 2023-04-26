@@ -178,7 +178,7 @@ export const content = {
             subtitle: "MY TOP SKILLS",
             skills_content: [
                 {
-                    name: "Mongodb developer | DBA",
+                    name: "MongoDB developer | DBA",
                     para: "in NodeJs & Java & Php",
                     logo: mongodb,
                 },
@@ -400,7 +400,7 @@ export const content = {
             subtitle: "MES MEILLEURES COMPÉTENCES",
             skills_content: [
                 {
-                    name: "Mongodb développeur | DBA",
+                    name: "MongoDB développeur | DBA",
                     para: "avec NodeJs & Java & Php",
                     logo: mongodb,
                 },
