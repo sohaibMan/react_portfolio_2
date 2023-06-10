@@ -9,16 +9,15 @@ import cpp from "./assets/images/Skills/cpp.png";
 import linux from "./assets/images/Skills/linux.png";
 import git from "./assets/images/Skills/git.png";
 import datastructure from "./assets/images/Skills/datastructure.png";
-// import laravel from "./assets/images/Skills/laravel.png";
-// import symfony from "./assets/images/Skills/symfony.png";
 import postman from "./assets/images/Skills/postman.png";
 import java from "./assets/images/Skills/java.png";
 import uml from "./assets/images/Skills/uml.png";
 import typescript from "./assets/images/Skills/typescript.png";
 import teamwork from "./assets/images/Skills/teamwork.png";
 import python from "./assets/images/Skills/python.png";
-// import flask from "./assets/images/Skills/flask.png";
 import graphql from "./assets/images/Skills/graphql.png";
+import symfony from "./assets/images/Skills/symfony.png";
+import flask from "./assets/images/Skills/flask.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -31,6 +30,7 @@ import cert4 from "./assets/images/Certifications/cert4.png";
 import cert5 from "./assets/images/Certifications/cert5.png";
 import cert6 from "./assets/images/Certifications/cert6.png";
 
+import project0 from "./assets/images/Projects/img0.png";
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
@@ -38,29 +38,23 @@ import project4 from "./assets/images/Projects/img4.png";
 import project5 from "./assets/images/Projects/img5.png";
 import project6 from "./assets/images/Projects/img6.png";
 import project7 from "./assets/images/Projects/img7.png";
-// import person_project from "./assets/images/Projects/person.png";
+
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
-// import avatar3 from "./assets/images/Testimonials/avatar3.png";
-// import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
-// import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
-// import icons from react-icons
+
 import {GrMail} from "react-icons/gr";
 import {GiSkills} from "react-icons/gi";
 import {MdOutlinePermContactCalendar} from "react-icons/md";
 import {BsInstagram} from "react-icons/bs";
-import {TbSmartHome} from "react-icons/tb";
+import {TbCertificate, TbSmartHome} from "react-icons/tb";
 import {BiUser} from "react-icons/bi";
-import {AiFillLinkedin} from "react-icons/ai";
+import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import {SiUpwork} from "react-icons/si";
-import {RiServiceLine, RiProjectorLine} from "react-icons/ri";
-// import { MdOutlinePermContactCalendar } from "react-icons";
-import {AiFillGithub} from "react-icons/ai";
-import {TbCertificate} from "react-icons/tb";
+import {RiProjectorLine, RiServiceLine} from "react-icons/ri";
 
 const Nav = [
     {
@@ -192,21 +186,16 @@ export const content = {
                     para: "with Redux - Hooks- Material UI - Typescript - Tailwind css",
                     logo: reactjs,
                 },
-                // {
-                //   name: "Laravel  ",
-                //   para: "REST API",
-                //   logo: laravel,
-                // },
-                // {
-                //   name: "Symfony ",
-                //   para: "REST API",
-                //   logo: symfony,
-                // },
-                // {
-                //   name: "flask",
-                //   para: "REST API",
-                //   logo: flask,
-                // },
+                {
+                    name: "Symfony ",
+                    para: "Full stack Ecommerce App",
+                    logo: symfony,
+                },
+                {
+                    name: "Flask",
+                    para: "Crud app with angular to manage cars",
+                    logo: flask,
+                },
                 {
                     name: "Graphql",
                     para: "With Apollo server/client",
@@ -295,6 +284,11 @@ export const content = {
             title: "Projects",
             subtitle: "MY CREATION",
             project_content: [
+                {
+                    title: "Graph theory project",
+                    image: project0,
+                    githubLink: "https://github.com/sohaibMan/GraphTheory",
+                },
                 {
                     title: "Club Website ",
                     link: "https://itgeeks.social/",
@@ -413,17 +407,17 @@ export const content = {
                     name: "React js | Next js",
                     para: "avec Redux - Hooks- Material UI - Typescript - Tailwind css",
                     logo: reactjs,
+                }, {
+                    name: "Symfony ",
+                    para: "Application full stack d'ecommerce",
+                    logo: symfony,
                 },
-                // {
-                //   name: "Laravel  ",
-                //   para: "REST API",
-                //   logo: laravel,
-                // },
-                // {
-                //   name: "Symfony ",
-                //   para: "REST API",
-                //   logo: symfony,
-                // },
+                {
+                    name: "Flask",
+                    para: "Application crud avec angular pour gérer les voitures",
+                    logo: flask,
+                },
+
                 {
                     name: "MySql | PostgreSql",
                     para: "plus la modélisation de données relationnelles avec UML & ERD & MERISE ",
