@@ -18,6 +18,9 @@ import python from "./assets/images/Skills/python.png";
 import graphql from "./assets/images/Skills/graphql.png";
 import symfony from "./assets/images/Skills/symfony.png";
 import flask from "./assets/images/Skills/flask.png";
+import azure from "./assets/images/Skills/azure.png";
+import docker from "./assets/images/Skills/docker.png";
+import redis from "./assets/images/Skills/redis.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -187,7 +190,7 @@ export const content = {
                     logo: reactjs,
                 },
                 {
-                    name: "Symfony ",
+                    name: "Symfony",
                     para: "Full stack Ecommerce App",
                     logo: symfony,
                 },
@@ -253,6 +256,18 @@ export const content = {
                     logo: teamwork,
                 },
                 {
+                    name: "Microsoft Azure",
+                    para: "with Azure blob storage & Azure VM & Azure App Service",
+                    logo: azure,
+                }, {
+                    name: "Docker",
+                    para: "with docker-compose , portainer ...",
+                    logo: docker,
+                }, {
+                    name: "redis",
+                    para: "for caching and session management",
+                    logo: redis,
+                }, {
                     name: "Python",
                     para: "in Graph theory",
                     logo: python,
@@ -408,7 +423,7 @@ export const content = {
                     para: "avec Redux - Hooks- Material UI - Typescript - Tailwind css",
                     logo: reactjs,
                 }, {
-                    name: "Symfony ",
+                    name: "Symfony",
                     para: "Application full stack d'ecommerce",
                     logo: symfony,
                 },
@@ -468,6 +483,19 @@ export const content = {
                     name: "Travail en équipe | communication",
                     para: "J'aime travailler en équipe et je suis un bon communicateur",
                     logo: teamwork,
+                },
+                {
+                    name: "Microsoft Azure",
+                    para: "avec Azure blob storage & Azure VM & Azure App Service",
+                    logo: azure,
+                }, {
+                    name: "Docker",
+                    para: "avec docker-compose , portainer ...",
+                    logo: docker,
+                }, {
+                    name: "redis",
+                    para: "pour la mise en cache et la gestion des sessions",
+                    logo: redis,
                 },
                 {
                     name: "Python",
