@@ -33,6 +33,7 @@ import cert4 from "./assets/images/Certifications/cert4.png";
 import cert5 from "./assets/images/Certifications/cert5.png";
 import cert6 from "./assets/images/Certifications/cert6.png";
 
+import bricoll from "./assets/images/Projects/bricoll.webp";
 import project0 from "./assets/images/Projects/img0.png";
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
@@ -301,6 +302,10 @@ export const content = {
             subtitle: "MY CREATION",
             project_content: [
                 {
+                    title: "Freelance website -- 'bricoll'",
+                    image: bricoll,
+                    githubLink: "https://github.com/sohaibMan/bricoll",
+                }, {
                     title: "Graph theory project",
                     image: project0,
                     githubLink: "https://github.com/sohaibMan/GraphTheory",
@@ -536,6 +541,11 @@ export const content = {
             title: "Projects",
             subtitle: "Ma création",
             project_content: [
+                {
+                    title: "site web de freealnce -- 'bricoll'",
+                    image: bricoll,
+                    githubLink: "https://github.com/sohaibMan/bricoll",
+                },
                 {
                     title: "It geeks ",
                     link: "https://itgeeks.social/",
