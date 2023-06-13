@@ -157,7 +157,8 @@ export const content = {
             title: "Software Engineering student",
             firstName: "SOHAIB",
             LastName: "MANAH",
-            btnText: "Explore more about Me",
+            btnText: "View my resume",
+            btnLink: "https://www.canva.com/design/DAFltazUEpM/1HUGhv9zLupr7TU3NbZ68w/view",
             image: Hero_person,
             hero_content: [
                 {
@@ -391,7 +392,8 @@ export const content = {
             title: "Élève ingénieur en LSI",
             firstName: "SOHAIB",
             LastName: "MANAH",
-            btnText: "En savoir plus sur moi",
+            btnText: "Consulter mon curriculum vitæ",
+            btnLink: "https://www.canva.com/design/DAFltazUEpM/1HUGhv9zLupr7TU3NbZ68w/view",
             image: Hero_person,
             hero_content: [
                 {
