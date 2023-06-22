@@ -32,6 +32,7 @@ import cert3 from "./assets/images/Certifications/cert3.png";
 import cert4 from "./assets/images/Certifications/cert4.png";
 import cert5 from "./assets/images/Certifications/cert5.png";
 import cert6 from "./assets/images/Certifications/cert6.png";
+import cert7 from "./assets/images/Certifications/cert7.png";
 
 import bricoll from "./assets/images/Projects/bricoll.webp";
 import project0 from "./assets/images/Projects/img0.png";
@@ -148,6 +149,10 @@ const cert_content = [
         title: "SQL (Advanced)",
         link: "https://www.hackerrank.com/certificates/3a683fbab8d4",
         image: cert6,
+    }, {
+        title: "MongoDB Python Developer Path",
+        link: "https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/a96c73c5-e997-5d54-80a0-54f8afa0e457-sohaib-manah-0239280c-b43a-45ac-a4b7-a55c4db1b568-certificate.pdf",
+        image: cert7,
     },
 ];
 
