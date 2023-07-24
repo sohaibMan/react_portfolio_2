@@ -6,8 +6,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import {Pagination} from "swiper";
-import {Autoplay} from "swiper";
+import {Pagination, Autoplay} from "swiper/modules";
 import {context} from "../App";
 import {useContext} from "react";
 

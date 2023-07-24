@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 import {AiFillGithub, AiOutlineLink} from "react-icons/ai";
 
-import {Autoplay, Pagination} from "swiper";
+import {Autoplay, Pagination} from "swiper/modules";
 import {context} from "../App";
 import {useContext} from "react";
 

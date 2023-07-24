@@ -6,7 +6,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import {Pagination} from "swiper";
+import {Pagination} from "swiper/modules";
 import {useContext, useState} from "react";
 import {context} from "../App";
 
@@ -30,11 +30,10 @@ const Testimonials = () => {
                         clickable: true,
                     }}
                     data-aos="fade-up"
-                    loop={true}
+                    // loop={true}
                     spaceBetween={40}
                     slidesPerView={1.7}
                     onSlideChange={(e) => {
-                        // console.log(e.realIndex);
                         setActiveIndex(e.realIndex);
                     }}
                     modules={[Pagination]}
@@ -48,7 +47,7 @@ const Testimonials = () => {
                border-slate-200 md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
                             >
-                                <img src={content.img} loading="lazy" alt="..." className="h-24"/>
+                                <img src={content.img} loading="lazy" alt={content.name} className="h-24"/>
                                 <div>
                                     <p className="sm:text-base text-sm">{content.review}</p>
                                     <br/>
