@@ -16,7 +16,7 @@
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.10.1",
     "react-modal": "^3.16.1",
-    "swiper": "^10.0.4"
+    "swiper": "^10.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
