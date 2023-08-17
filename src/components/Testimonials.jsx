@@ -1,5 +1,4 @@
 import {content} from "../Content";
-// Import Swiper React components
 import {Swiper, SwiperSlide} from "swiper/react";
 
 // Import Swiper styles
@@ -30,7 +29,7 @@ const Testimonials = () => {
                         clickable: true,
                     }}
                     data-aos="fade-up"
-                    // loop={true}
+                    loop={true}
                     spaceBetween={40}
                     slidesPerView={1.7}
                     onSlideChange={(e) => {

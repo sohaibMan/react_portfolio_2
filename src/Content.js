@@ -47,18 +47,19 @@ import project7 from "./assets/images/Projects/img7.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
+import avatar3 from "./assets/images/Testimonials/avatar3.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
+import hireme_person from "./assets/images/Hireme/person.png";
 
 
 import {GrMail} from "react-icons/gr";
 import {GiSkills} from "react-icons/gi";
 import {MdOutlinePermContactCalendar} from "react-icons/md";
-import {BsInstagram} from "react-icons/bs";
 import {TbCertificate, TbSmartHome} from "react-icons/tb";
 import {BiUser} from "react-icons/bi";
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import {SiUpwork} from "react-icons/si";
+import {TbBrandFiverr} from "react-icons/tb";
 import {RiProjectorLine, RiServiceLine} from "react-icons/ri";
 
 const Nav = [
@@ -109,14 +110,13 @@ const social_media = [
         link: "https://github.com/sohaibMan",
     },
     {
-        text: "sohaib_manah",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/sohaib_manah/",
-    },
-    {
         text: "sohaib M",
         icon: SiUpwork,
         link: "https://www.upwork.com/freelancers/~010a44723a9108a1bc",
+    }, {
+        text: "sohaibesohaib",
+        icon: TbBrandFiverr,
+        link: "https://www.fiverr.com/sohaibesohaib",
     },
 ];
 const cert_content = [
@@ -160,7 +160,7 @@ export const content = {
     en: {
         Nav,
         hero: {
-            title: "Software Engineering student",
+            title: "Software Engineer",
             firstName: "SOHAIB",
             LastName: "MANAH",
             btnText: "View my resume",
@@ -168,11 +168,11 @@ export const content = {
             image: Hero_person,
             hero_content: [
                 {
-                    count: "1+",
+                    count: `+${new Date(new Date() - new Date("2021-01-01")).getFullYear() - 1970}`,
                     text: "Year of Experience in Web development And software development",
                 },
                 {
-                    count: "5+",
+                    count: "10+",
                     text: "Projects Worked in my career",
                 },
             ],
@@ -287,7 +287,7 @@ export const content = {
             service_content: [
                 {
                     title: "Web Development",
-                    para: "As a web developer with 1+ year of experience, I have worked on a variety of projects, from small personal websites to medium web applications. I have experience with both front-end and back-end development, and I am comfortable working with a variety of technologies and frameworks.",
+                    para: "As a web developer with 2+ year of experience in this field, I have worked on a variety of projects, from small personal websites to medium web applications. I have experience with both front-end and back-end development, and I am comfortable working with a variety of technologies and frameworks.",
                     logo: services_logo1,
                 },
                 {
@@ -374,15 +374,25 @@ export const content = {
                         "“I know how important it is to work with reliable, flexible, and responsive individuals, and Sohaib certainly demonstrated these qualities throughout the entire project.  Their expertise and attention to detail were invaluable”",
                     img: avatar2,
                     name: "Manal Z. It Geeks's team leader",
+                }, {
+                    review:
+                        "“Sohaib was terrific, did a great job understanding my projects' needs, and delivered super fast! I highly recommend his services.”",
+                    img: avatar3,
+                    name: "jean V. Fiver Client",
+                }, {
+                    review:
+                        "“I wanted to take a moment to share my positive experience with Sohaib, whom I recently hired to assist with our company's rebranding effort. ”",
+                    img: avatar3,
+                    name: "khalid D. Fiver Client",
                 },
             ],
         },
         Aboutme: {
             title: "About Me",
             subtitle: "Hello Dear,This is a brief introduction about me",
-            image1: Hireme_person,
-            image2: Hireme_person,
-            para: "I am a software Engineering student at Abdmalik saadi at  University ,at Faculty of Sciences and Technologies Tangier ,specialty software and intelligent systems and a MERN stack developer , \n",
+            image1: hireme_person,
+            image2: hireme_person,
+            para: "Hello Dear ,I'm a senior software engineer , I love building software , try new technologies , learn from people ,and share my knowledge with others ",
             btnText: "More about me",
         },
         Contact: {
@@ -399,7 +409,7 @@ export const content = {
     fr: {
         Nav,
         hero: {
-            title: "Élève ingénieur en LSI",
+            title: "ingénieur logiciel",
             firstName: "SOHAIB",
             LastName: "MANAH",
             btnText: "Consulter mon curriculum vitæ",
@@ -407,11 +417,11 @@ export const content = {
             image: Hero_person,
             hero_content: [
                 {
-                    count: "1+",
+                    count: `+${new Date(new Date() - new Date("2021-01-01")).getFullYear() - 1970}`,
                     text: "An d'expérience en développement Web et en développement de logiciels",
                 },
                 {
-                    count: "5+",
+                    count: "10+",
                     text: "Projets Travaillé dans ma carrière",
                 },
             ],
@@ -611,14 +621,25 @@ export const content = {
                     img: avatar2,
                     name: "Manal Z. chef d'équipe d'It Geeks",
                 },
+                {
+                    review:
+                        "“Sohaib était formidable, a fait un excellent travail en comprenant les besoins de mes projets, et livré super rapide! Je recommande vivement ses services.”",
+                    img: avatar3,
+                    name: "jean V. Fiverr Client",
+                }, {
+                    review:
+                        "“Je voulais prendre un moment pour partager mon expérience positive avec Sohaib, que j’ai récemment embauché pour aider à l’effort de rebranding de notre entreprise. ”",
+                    img: avatar3,
+                    name: "khalid D. Fiverr Client",
+                },
             ],
         },
         Aboutme: {
             title: "A propos de moi",
             subtitle: "Bonjour Cher,Ceci est une brève introduction sur moi",
-            image1: Hireme_person,
-            image2: Hireme_person,
-            para: "J'étudie à l'Université Abdelmalek Essaadi, à la Faculté des Sciences et Techniques de Tanger en tant qu'un étudiant en Génie Informatique spécialité logiciel et système intelligent, \n et  Je suis un MERN développeur,.\n et je cherche un stage pour l'été prochain",
+            image1: hireme_person,
+            image2: hireme_person,
+            para: "Bonjour cher, je suis un ingénieur logiciel senior, j’aime construire des logiciels, essayer de nouvelles technologies, apprendre des gens, et partager mes connaissances avec les autres ",
             btnText: "En savoir plus",
         },
         Contact: {
