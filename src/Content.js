@@ -365,26 +365,32 @@ export const content = {
             testimonials_content: [
                 {
                     review:
-                        "“Thank you for reaching out and for your great work on our website for \"Bougeons Ensemble\".  we are very satisfied with the final product.Your expertise and professionalism were invaluable to our project, and I have no doubt that you will continue to provide excellent services ”",
+                        "“Sohaib was terrific, did a great job understanding my projects' needs, and delivered super fast! I highly recommend his services.”",
+                    img: avatar3,
+                    name: "jean V. Fiver Client",
+                    rating: 5
+
+                }, {
+                    review:
+                        "“I wanted to take a moment to share my positive experience with Sohaib, whom I recently hired to assist with our company's rebranding effort. ”",
+                    img: avatar3,
+                    name: "khalid D. Fiver Client",
+                    rating: 5
+                },
+                {
+                    review:
+                        "“Thank you for reaching out and for your great work . we are very satisfied with the final product.Your expertise and professionalism were invaluable to our project, and I have no doubt that you will continue to provide excellent services ”",
                     img: avatar1,
                     name: "Mohamed E. Bougeons ensemble's designer ",
+                    rating: 5
                 },
                 {
                     review:
                         "“I know how important it is to work with reliable, flexible, and responsive individuals, and Sohaib certainly demonstrated these qualities throughout the entire project.  Their expertise and attention to detail were invaluable”",
                     img: avatar2,
                     name: "Manal Z. It Geeks's team leader",
-                }, {
-                    review:
-                        "“Sohaib was terrific, did a great job understanding my projects' needs, and delivered super fast! I highly recommend his services.”",
-                    img: avatar3,
-                    name: "jean V. Fiver Client",
-                }, {
-                    review:
-                        "“I wanted to take a moment to share my positive experience with Sohaib, whom I recently hired to assist with our company's rebranding effort. ”",
-                    img: avatar3,
-                    name: "khalid D. Fiver Client",
-                },
+                    rating: 5
+                }
             ],
         },
         Aboutme: {
@@ -611,7 +617,7 @@ export const content = {
             testimonials_content: [
                 {
                     review:
-                        "“Merci d’avoir communiqué avec nous et de l’excellent travail que vous avez accompli sur notre site Web pour « Bougeons Ensemble ».  nous sommes très satisfaits du produit final, votre expertise et votre professionnalisme ont été inestimables pour notre projet, et je n’ai aucun doute que vous continuerez à offrir d’excellents services.“",
+                        "“Merci d’avoir communiqué avec nous et de l’excellent travail que vous avez accompli.  nous sommes très satisfaits du produit final, votre expertise et votre professionnalisme ont été inestimables pour notre projet, et je n’ai aucun doute que vous continuerez à offrir d’excellents services.“",
                     img: avatar1,
                     name: "Mohamed E. Bougeons ensemble club ",
                 },
