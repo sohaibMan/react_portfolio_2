@@ -46,7 +46,7 @@ const Testimonials = () => {
                border-slate-200 md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
                             >
-                                <img src={content.img} loading="lazy" alt={content.name} className="h-24"/>
+                                <img src={content.img} loading="lazy" height={50} width={50} alt={content.name}/>
                                 <div>
                                     <p className="sm:text-base text-sm">{content.review}</p>
                                     <br/>
