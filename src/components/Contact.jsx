@@ -16,10 +16,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                "service_sibmgx4",
-                "template_vmerluo",
+                "service_701xgeo",
+                "template_4kpd1nv",
                 form.current,
-                "v4ZuU1D2AXKh08adE"
+                "0zd6qSgoxDJ8UmGgQ"
             )
             .then(
                 (result) => {
@@ -66,7 +66,7 @@ const Contact = () => {
                             type="email"
                             name="user_email"
                             pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                            placeholder="Email Id"
+                            placeholder="Email"
                             required
                             className="border border-slate-600 p-3 rounded"
                         />
