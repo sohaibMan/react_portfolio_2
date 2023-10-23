@@ -20,7 +20,7 @@
     "swiper": "^10.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.28",
+    "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.1.0",
     "@wixc3/react-board": "^2.3.0",
