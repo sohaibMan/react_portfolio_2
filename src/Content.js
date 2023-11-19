@@ -398,7 +398,7 @@ export const content = {
             subtitle: "Hello Dear,This is a brief introduction about me",
             image1: hireme_person,
             image2: hireme_person,
-            para: "Hello Dear ,I'm a junior software engineer , I love building software , try new technologies , learn from people ,and share my knowledge with others ",
+            para: "Hello Dear ,I'm a junior software engineer , I love building software , trying new technologies , learning from people ,and sharing my knowledge with others.",
             btnText: "More about me",
         },
         Contact: {
@@ -645,7 +645,7 @@ export const content = {
             subtitle: "Bonjour Cher,Ceci est une brève introduction sur moi",
             image1: hireme_person,
             image2: hireme_person,
-            para: "Bonjour cher, je suis un ingénieur logiciel junior, j’aime construire des logiciels, essayer de nouvelles technologies, apprendre des gens, et partager mes connaissances avec les autres ",
+            para: "Bonjour cher, je suis un ingénieur logiciel junior, j’aime construire des logiciels, essayer de nouvelles technologies, apprendre des gens, et partager mes connaissances avec les autres .",
             btnText: "En savoir plus",
         },
         Contact: {
