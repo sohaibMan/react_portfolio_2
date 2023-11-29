@@ -17,7 +17,7 @@
     "react-icons": "^4.12.0",
     "react-modal": "^3.16.1",
     "react-wrap-balancer": "^1.1.0",
-    "swiper": "^11.0.4"
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.39",
