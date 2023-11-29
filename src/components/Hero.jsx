@@ -32,7 +32,7 @@ const Hero = () => {
                     <br/>
                     <div className="flex justify-end">
                         <button className="btn">
-                            <a target={"_blank"}
+                            <a target={"_blank"} rel="noopener noreferrer"
                                href={hero.btnLink}> {hero.btnText}</a>
                         </button>
                     </div>

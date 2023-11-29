@@ -92,7 +92,8 @@ const Contact = () => {
                                 className="flex items-center gap-2"
                             >
                                 <h4 className="text-white">{createElement(content.icon)}</h4>
-                                <a className="font-Poppins" href={content.link} target="_blank">
+                                <a className="font-Poppins" href={content.link} target="_blank"
+                                   rel="noopener noreferrer">
                                     {content.text}
                                 </a>
                             </div>

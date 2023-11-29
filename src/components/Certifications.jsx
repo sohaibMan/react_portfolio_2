@@ -42,7 +42,7 @@ const Certifications = () => {
                                 key={i}
                                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
                             >
-                                <a href={content.link} target="_blank">
+                                <a href={content.link} target="_blank" rel="noopener noreferrer">
                                     <img loading="lazy" src={content.image} alt="..."/>
                                     <div className="flex flex-col gap-1 mt-2">
                                         <h5 className="font-bold font-Poppins">{content.title}</h5>

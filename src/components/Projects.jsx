@@ -50,7 +50,7 @@ const Projects = () => {
                                 key={i}
                                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
                             >
-                                <a href={content.link} target="_blank">
+                                <a href={content.link} target="_blank" rel="noopener noreferrer">
                                     <img loading="lazy" src={content.image} alt="..."/>
                                 </a>
                                 <div className="flex justify-between gap-1 mt-2">
@@ -62,6 +62,7 @@ const Projects = () => {
                                                 target="_blank"
                                                 href={content.link}
                                                 className="font-bold text-gray self-end"
+                                                rel="noopener noreferrer"
                                             >
                                                 <AiOutlineLink style={{height: "24", width: "24"}}/>
                                             </a>
@@ -69,6 +70,7 @@ const Projects = () => {
                                         {content.githubLink && (
                                             <a
                                                 target="_blank"
+                                                rel="noopener noreferrer"
                                                 href={content.githubLink}
                                                 className="font-bold text-gray self-end"
                                             >
