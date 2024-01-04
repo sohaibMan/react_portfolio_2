@@ -15,8 +15,9 @@ import uml from "./assets/images/Skills/uml.png";
 import typescript from "./assets/images/Skills/typescript.png";
 import teamwork from "./assets/images/Skills/teamwork.png";
 import python from "./assets/images/Skills/python.png";
+import spring from "./assets/images/Skills/spring.png";
 import graphql from "./assets/images/Skills/graphql.png";
-import symfony from "./assets/images/Skills/symfony.png";
+import laravel from "./assets/images/Skills/laravel.png";
 import flask from "./assets/images/Skills/flask.png";
 import azure from "./assets/images/Skills/azure.png";
 import docker from "./assets/images/Skills/docker.png";
@@ -197,9 +198,9 @@ export const content = {
                     logo: reactjs,
                 },
                 {
-                    name: "Symfony",
+                    name: "Laravel",
                     para: "Full stack Ecommerce App",
-                    logo: symfony,
+                    logo: laravel,
                 },
                 {
                     name: "Flask",
@@ -210,6 +211,11 @@ export const content = {
                     name: "Graphql",
                     para: "With Apollo server/client",
                     logo: graphql,
+                },
+                {
+                    name: "Spring",
+                    para: "J2EE , spring boot, spring security , spring data , spring cloud, eureka",
+                    logo: spring,
                 },
                 {
                     name: "MySql | PostgreSql",
@@ -451,9 +457,9 @@ export const content = {
                     para: "avec Redux - Hooks- Material UI - Typescript - Tailwind css",
                     logo: reactjs,
                 }, {
-                    name: "Symfony",
+                    name: "Laravel ",
                     para: "Application full stack d'ecommerce",
-                    logo: symfony,
+                    logo: laravel,
                 },
                 {
                     name: "Flask",
@@ -534,6 +540,10 @@ export const content = {
                     name: "Graphql",
                     para: "avec la apollo client/serveurs",
                     logo: graphql,
+                }, {
+                    name: "Spring",
+                    para: "J2EE , spring boot, spring security , spring data , spring cloud, eureka",
+                    logo: spring,
                 },
             ],
         },
