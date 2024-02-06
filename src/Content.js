@@ -6,6 +6,7 @@ import nodejs from "./assets/images/Skills/node.png";
 import mongodb from "./assets/images/Skills/mongodb.png";
 import mysql from "./assets/images/Skills/mysql.png";
 import cpp from "./assets/images/Skills/cpp.png";
+import rust from "./assets/images/Skills/rust.png";
 import linux from "./assets/images/Skills/linux.png";
 import git from "./assets/images/Skills/git.png";
 import datastructure from "./assets/images/Skills/datastructure.png";
@@ -15,6 +16,7 @@ import uml from "./assets/images/Skills/uml.png";
 import typescript from "./assets/images/Skills/typescript.png";
 import teamwork from "./assets/images/Skills/teamwork.png";
 import python from "./assets/images/Skills/python.png";
+import php from "./assets/images/Skills/php.png";
 import spring from "./assets/images/Skills/spring.png";
 import graphql from "./assets/images/Skills/graphql.png";
 import laravel from "./assets/images/Skills/laravel.png";
@@ -22,6 +24,7 @@ import flask from "./assets/images/Skills/flask.png";
 import azure from "./assets/images/Skills/azure.png";
 import docker from "./assets/images/Skills/docker.png";
 import redis from "./assets/images/Skills/redis.png";
+import oracle from "./assets/images/Skills/oracle.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -29,7 +32,6 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 
 import cert1 from "./assets/images/Certifications/cert1.png";
 import cert2 from "./assets/images/Certifications/cert2.png";
-import cert3 from "./assets/images/Certifications/cert3.png";
 import cert4 from "./assets/images/Certifications/cert4.png";
 import cert5 from "./assets/images/Certifications/cert5.png";
 import cert6 from "./assets/images/Certifications/cert6.png";
@@ -122,19 +124,14 @@ const social_media = [
 ];
 const cert_content = [
     {
-        title: "MongoDB Node.js Developer Path",
-        link: "https://learn.mongodb.com/c/gQa2lhNtSgqM_tM35YbVkQ",
+        title: "MongoDB Associate Developer",
+        link: "https://www.credly.com/badges/0de50e15-99bc-4edf-8f7c-e2df6c4725fb/",
         image: cert1,
     },
     {
         title: "MongoDB Data Modeling",
         image: cert2,
         link: "https://learn.mongodb.com/c/lkxA2J6RTE2Ash0IL--EtA",
-    },
-    {
-        title: "MongoDB java Developer Path",
-        image: cert3,
-        link: "https://learn.mongodb.com/c/Xl-2HBe4SAWvzjUjjEWICg",
     },
     {
         title: "React + Redux ",
@@ -161,7 +158,7 @@ export const content = {
     en: {
         Nav,
         hero: {
-            title: "Software Engineer",
+            title: "Full Stack Developer",
             firstName: "SOHAIB",
             LastName: "MANAH",
             btnText: "View my resume",
@@ -170,7 +167,7 @@ export const content = {
             hero_content: [
                 {
                     count: `+${new Date(new Date() - new Date("2021-01-01")).getFullYear() - 1970}`,
-                    text: "Year of Experience in Web development And software development",
+                    text: "Years of Experience in Web development And software development",
                 },
                 {
                     count: "10+",
@@ -183,19 +180,54 @@ export const content = {
             subtitle: "MY TOP SKILLS",
             skills_content: [
                 {
-                    name: "MongoDB developer | DBA",
-                    para: "in NodeJs & Java & Php",
-                    logo: mongodb,
+                    name: "Rust",
+                    para: "with microservices architecture and grpc and actix-web",
+                    logo: rust,
+                },
+                {
+                    name: "c | c++",
+                    para: "university projects | data structures & algorithms | OOP",
+                    logo: cpp,
+                },
+                {
+                    name: "Java",
+                    para: "Swing (Desktop Graphical User Interface)",
+                    logo: java,
+                },
+                {
+                    name: "TypeScript | JavaScript",
+                    para: "with React & Next js & Node js",
+                    logo: typescript,
+                },
+                {
+                    name: "Python",
+                    para: "in Graph theory",
+                    logo: python,
+                },
+                {
+                    name: "Php",
+                    para: "with Laravel and Symfony and Wordpress",
+                    logo: php,
                 },
                 {
                     name: "Node js | Express.js ",
-                    para: "with  Rest Api |  GraphQL",
+                    para: "with  Rest Api |  GraphQL | Grpc",
                     logo: nodejs,
                 },
                 {
                     name: "React js | Next js",
                     para: "with Redux - Hooks- Material UI - Typescript - Tailwind css",
                     logo: reactjs,
+                },
+                {
+                    name: "Data Structure | Problem Solving | Graph Theory",
+                    para: "in c & c++ & java & javascript",
+                    logo: datastructure,
+                },
+                {
+                    name: "Spring",
+                    para: "J2EE , spring boot, spring security , spring data , spring cloud, eureka",
+                    logo: spring,
                 },
                 {
                     name: "Laravel",
@@ -213,60 +245,14 @@ export const content = {
                     logo: graphql,
                 },
                 {
-                    name: "Spring",
-                    para: "J2EE , spring boot, spring security , spring data , spring cloud, eureka",
-                    logo: spring,
-                },
-                {
-                    name: "MySql | PostgreSql",
-                    para: "and relational data modeling with UML & ERD & MERISE ",
-                    logo: mysql,
-                },
-                {
-                    name: "c | c++",
-                    para: "university projects | data structures & algorithms | OOP",
-                    logo: cpp,
-                },
-                {
-                    name: "Linux (Debian based)",
-                    para: "Familiar with bash scripting & system administration basics",
-                    logo: linux,
-                },
-                {
-                    name: "Git | GitHub",
-                    para: "Familiar with git and github",
-                    logo: git,
-                },
-                {
-                    name: "Data Structure | Problem Solving | Graph Theory",
-                    para: "in c & c++ & java & javascript",
-                    logo: datastructure,
-                },
-
-                {
                     name: "Postman",
                     para: "Automated API testing",
                     logo: postman,
                 },
                 {
-                    name: "Java",
-                    para: "Swing (Desktop Graphical User Interface)",
-                    logo: java,
-                },
-                {
-                    name: "UML | Data Modeling(Sql & NoSql)",
-                    para: "Software Design & Analysis with common design patterns",
-                    logo: uml,
-                },
-                {
-                    name: "TypeScript | JavaScript",
-                    para: "with React & Next js & Node js",
-                    logo: typescript,
-                },
-                {
-                    name: "teamwork | communication",
-                    para: "I like to work in a team and I am a good communicator",
-                    logo: teamwork,
+                    name: "Linux servers management",
+                    para: "Familiar with bash scripting & system administration basics",
+                    logo: linux,
                 },
                 {
                     name: "Microsoft Azure",
@@ -274,16 +260,41 @@ export const content = {
                     logo: azure,
                 }, {
                     name: "Docker",
-                    para: "with docker-compose , portainer ...",
+                    para: "with kubernetes , jenkins , portainer ...",
                     logo: docker,
+                },
+                {
+                    name: "Git | GitHub",
+                    para: "Familiar with git and github",
+                    logo: git,
+                },
+                {
+                    name: "MongoDB associate developer",
+                    para: "in NodeJs",
+                    logo: mongodb,
+                },
+                {
+                    name: "MySql | PostgresSql",
+                    para: "and relational data modeling with UML & ERD & MERISE ",
+                    logo: mysql,
                 }, {
-                    name: "redis",
+                    name: "Redis",
                     para: "for caching and session management",
                     logo: redis,
                 }, {
-                    name: "Python",
-                    para: "in Graph theory",
-                    logo: python,
+                    name: "oracle DBA",
+                    para: "with pl/sql, stored procedures, triggers, functions, views",
+                    logo: oracle,
+                },
+                {
+                    name: "teamwork | communication",
+                    para: "I like to work in a team and I am a good communicator",
+                    logo: teamwork,
+                },
+                {
+                    name: "Scrum & Agile | UML | Data Modeling(Sql & NoSql)",
+                    para: "Project management and Software Design",
+                    logo: uml,
                 },
             ],
         },
@@ -293,17 +304,17 @@ export const content = {
             service_content: [
                 {
                     title: "Web Development",
-                    para: "As a web developer with 2+ year of experience in this field, I have worked on a variety of projects, from small personal websites to medium web applications. I have experience with both front-end and back-end development, and I am comfortable working with a variety of technologies and frameworks.",
+                    para: "building web applications and websites with modern technologies and best practices is my passion and I can help you to do that with my experience in this field",
                     logo: services_logo1,
                 },
                 {
-                    title: "MongoDB developer | DBA",
+                    title: "MongoDB developer",
                     para: "keeping your data safe and secure and persistent  is my priority and I can help you to do that with my experience in this field",
                     logo: services_logo2,
                 },
                 {
-                    title: "Data modeling & Prototyping",
-                    para: "This is the most important phase and crucial step in any project development.And with my experience in this field I can help you to make your project a success",
+                    title: "DevOps",
+                    para: "I can help you to automate your deployment process and make it more reliable and resilient",
                     logo: services_logo3,
                 },
             ],
@@ -404,7 +415,7 @@ export const content = {
             subtitle: "Hello Dear,This is a brief introduction about me",
             image1: hireme_person,
             image2: hireme_person,
-            para: "Hello Dear ,I'm a junior software engineer , I love building software , trying new technologies , learning from people ,and sharing my knowledge with others.",
+            para: "Hello Dear , I'm a junior software engineer , I love building software , solving real-life problems, trying new technologies , learning from people ,and sharing my knowledge with others.",
             btnText: "More about me",
         },
         Contact: {
@@ -443,7 +454,7 @@ export const content = {
             subtitle: "MES MEILLEURES COMPÉTENCES",
             skills_content: [
                 {
-                    name: "MongoDB développeur | DBA",
+                    name: "MongoDB développeur",
                     para: "avec NodeJs & Java & Php",
                     logo: mongodb,
                 },
@@ -478,7 +489,12 @@ export const content = {
                     logo: cpp,
                 },
                 {
-                    name: "Linux (Basées sur Debian)",
+                    name: "Rust",
+                    para: "aves architecture des microservices et grpc et actix-web",
+                    logo: rust,
+                },
+                {
+                    name: "management des serveurs Linux",
                     para: "Connaissance des bases de script bash et d'administration système",
                     logo: linux,
                 },
@@ -504,8 +520,8 @@ export const content = {
                     logo: java,
                 },
                 {
-                    name: "conception UML | Modélisation des données (Sql & NoSql)",
-                    para: "Conception et analyse de logiciels avec des modèles de conception communs",
+                    name: "Scrum & Agile | conception UML | Modélisation des données (Sql & NoSql)",
+                    para: "Conception et gestion des projets,",
                     logo: uml,
                 },
                 {
@@ -524,12 +540,17 @@ export const content = {
                     logo: azure,
                 }, {
                     name: "Docker",
-                    para: "avec docker-compose , portainer ...",
+                    para: "avec kubernetes , jenkins , portainer ...",
                     logo: docker,
                 }, {
                     name: "redis",
                     para: "pour la mise en cache et la gestion des sessions",
                     logo: redis,
+                },
+                {
+                    name: "oracle DBA",
+                    para: "avec pl/sql, procédures stockées, déclencheurs, fonctions, vues",
+                    logo: oracle,
                 },
                 {
                     name: "Python",
@@ -553,17 +574,17 @@ export const content = {
             service_content: [
                 {
                     title: "Développement web",
-                    para: "En tant que développeur Web avec plus de 1 an d'expérience, j'ai travaillé sur une variété de projets, des petits sites Web personnels aux applications Web moyennes. J'ai de l'expérience en développement front end et back end, et je suis à l'aise de travailler avec une variété de technologies.",
+                    para: "Construire des applications web et des sites web avec des technologies modernes et les meilleures pratiques est ma passion et je peux vous aider à le faire avec mon expérience dans ce domaine",
                     logo: services_logo1,
                 },
                 {
-                    title: "Développeur MongoDB | DBA",
-                    para: "Garder vos données sûres et sécurisées et persistantes est ma priorité et je peux vous aider à le faire avec mon expérience dans ce domaine",
+                    title: "Développeur MongoDB",
+                    para: "Garder vos données en sécurité et persistantes est ma priorité et je peux vous aider à le faire avec mon expérience dans ce domaine",
                     logo: services_logo2,
                 },
                 {
-                    title: "Modélisation et conception du project",
-                    para: "Il s'agit de la phase la plus importante et de l'étape cruciale de tout développement de projet. Et avec mon expérience dans ce domaine, je peux vous aider à faire de votre projet un succès",
+                    title: "DevOps",
+                    para: "Je peux vous aider à automatiser votre processus de déploiement et à le rendre plus fiable et résilient",
                     logo: services_logo3,
                 },
             ],
