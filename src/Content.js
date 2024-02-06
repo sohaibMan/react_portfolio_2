@@ -260,7 +260,7 @@ export const content = {
                     logo: azure,
                 }, {
                     name: "Docker",
-                    para: "with kubernetes , jenkins , portainer ...",
+                    para: "with kubernetes , jenkins , portainer",
                     logo: docker,
                 },
                 {
@@ -453,36 +453,7 @@ export const content = {
             title: "compétences",
             subtitle: "MES MEILLEURES COMPÉTENCES",
             skills_content: [
-                {
-                    name: "MongoDB développeur",
-                    para: "avec NodeJs & Java & Php",
-                    logo: mongodb,
-                },
-                {
-                    name: "Node js | Express.js ",
-                    para: "avec  Rest Api |  GraphQL",
-                    logo: nodejs,
-                },
-                {
-                    name: "React js | Next js",
-                    para: "avec Redux - Hooks- Material UI - Typescript - Tailwind css",
-                    logo: reactjs,
-                }, {
-                    name: "Laravel ",
-                    para: "Application full stack d'ecommerce",
-                    logo: laravel,
-                },
-                {
-                    name: "Flask",
-                    para: "Application crud avec angular pour gérer les voitures",
-                    logo: flask,
-                },
 
-                {
-                    name: "MySql | PostgreSql",
-                    para: "plus la modélisation de données relationnelles avec UML & ERD & MERISE ",
-                    logo: mysql,
-                },
                 {
                     name: "c | c++",
                     para: "projets universitaires | structures de données et algorithmes | POO",
@@ -494,7 +465,58 @@ export const content = {
                     logo: rust,
                 },
                 {
-                    name: "management des serveurs Linux",
+                    name: "Java",
+                    para: "Swing (Interface utilisateur graphique)",
+                    logo: java,
+                },
+                {
+                    name: "Python",
+                    para: "avec la Théorie des graphes",
+                    logo: python,
+                },
+                {
+                    name: "Php",
+                    para: "avec Laravel et Symfony et Wordpress",
+                    logo: php,
+                },
+                {
+                    name: "Structure des données | Résolution de problèmes | Théorie des graphes",
+                    para: "en c & c++ & java & javascript",
+                    logo: datastructure,
+                },
+                {
+                    name: "TypeScript | JavaScript",
+                    para: "avec React & Next js & Node js",
+                    logo: typescript,
+                },
+
+                {
+                    name: "React js | Next js",
+                    para: "avec Redux - Hooks- Material UI - Typescript - Tailwind css",
+                    logo: reactjs,
+                },
+                {
+                    name: "Node js | Express.js ",
+                    para: "avec  Rest Api |  GraphQL",
+                    logo: nodejs,
+                },
+
+                {
+                    name: "Spring",
+                    para: "J2EE , spring boot, spring security , spring data , spring cloud, eureka",
+                    logo: spring,
+                }, {
+                    name: "Laravel ",
+                    para: "Application full stack d'ecommerce",
+                    logo: laravel,
+                },
+                {
+                    name: "Flask",
+                    para: "Application crud avec angular pour gérer les voitures",
+                    logo: flask,
+                },
+                {
+                    name: "Management des serveurs Linux",
                     para: "Connaissance des bases de script bash et d'administration système",
                     logo: linux,
                 },
@@ -504,44 +526,30 @@ export const content = {
                     logo: git,
                 },
                 {
-                    name: "Structure des données | Résolution de problèmes | Théorie des graphes",
-                    para: "en c & c++ & java & javascript",
-                    logo: datastructure,
-                },
-
-                {
                     name: "Postman",
                     para: "L'automatisation des test d'API",
                     logo: postman,
                 },
-                {
-                    name: "Java",
-                    para: "Swing (Interface utilisateur graphique)",
-                    logo: java,
-                },
-                {
-                    name: "Scrum & Agile | conception UML | Modélisation des données (Sql & NoSql)",
-                    para: "Conception et gestion des projets,",
-                    logo: uml,
-                },
-                {
-                    name: "TypeScript | JavaScript",
-                    para: "avec React & Next js & Node js",
-                    logo: typescript,
-                },
-                {
-                    name: "Travail en équipe | communication",
-                    para: "J'aime travailler en équipe et je suis un bon communicateur",
-                    logo: teamwork,
-                },
+
+
                 {
                     name: "Microsoft Azure",
                     para: "avec Azure blob storage & Azure VM & Azure App Service",
                     logo: azure,
                 }, {
                     name: "Docker",
-                    para: "avec kubernetes , jenkins , portainer ...",
+                    para: "avec kubernetes , jenkins , portainer",
                     logo: docker,
+                },
+                {
+                    name: "MongoDB développeur",
+                    para: "avec NodeJs & Java & Php",
+                    logo: mongodb,
+                },
+                {
+                    name: "MySql | PostgresSql",
+                    para: "plus la modélisation de données relationnelles avec UML & ERD & MERISE ",
+                    logo: mysql,
                 }, {
                     name: "redis",
                     para: "pour la mise en cache et la gestion des sessions",
@@ -552,20 +560,23 @@ export const content = {
                     para: "avec pl/sql, procédures stockées, déclencheurs, fonctions, vues",
                     logo: oracle,
                 },
-                {
-                    name: "Python",
-                    para: "avec la Théorie des graphes",
-                    logo: python,
-                },
+
                 {
                     name: "Graphql",
                     para: "avec la apollo client/serveurs",
                     logo: graphql,
-                }, {
-                    name: "Spring",
-                    para: "J2EE , spring boot, spring security , spring data , spring cloud, eureka",
-                    logo: spring,
                 },
+                {
+                    name: "Travail en équipe | communication",
+                    para: "J'aime travailler en équipe et je suis un bon communicateur",
+                    logo: teamwork,
+                },
+                {
+                    name: "Scrum & Agile | conception UML | Modélisation des données (Sql & NoSql)",
+                    para: "Conception et gestion des projets,",
+                    logo: uml,
+                },
+
             ],
         },
         services: {

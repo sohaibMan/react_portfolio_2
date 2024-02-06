@@ -57,6 +57,7 @@ const Testimonials = () => {
                                                 {
                                                     [...Array(content.rating)].map((_, i) => (
                                                         <svg className="w-4 h-4 text-yellow-300" aria-hidden="true"
+                                                             key={i}
                                                              xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                                              viewBox="0 0 22 20">
                                                             <path
@@ -67,6 +68,7 @@ const Testimonials = () => {
                                                 } {
                                                 [...Array(5 - content.rating)].map((_, i) => (
                                                     <svg className="w-4 h-4 text-gray-300 dark:text-gray-500"
+                                                         key={i}
                                                          aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                                          fill="currentColor" viewBox="0 0 22 20">
                                                         <path
