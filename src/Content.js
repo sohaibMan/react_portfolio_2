@@ -36,7 +36,7 @@ import cert4 from "./assets/images/Certifications/cert4.png";
 import cert5 from "./assets/images/Certifications/cert5.png";
 import cert6 from "./assets/images/Certifications/cert6.png";
 import cert7 from "./assets/images/Certifications/cert7.png";
-import cert8 from "./assets/images/Certifications/cert8.png";
+import cert8 from "./assets/images/Certifications/cert8.jpeg";
 
 import bricoll from "./assets/images/Projects/bricoll.webp";
 import project0 from "./assets/images/Projects/img0.png";
@@ -132,7 +132,7 @@ const cert_content = [
     {
         title: "Agile Project Management",
         link:'https://coursera.org/share/a92c70e92b02890f7d7a5ab3deb418ab',
-        image:cert8
+        image: cert8
     },
     {
         title: "MongoDB Data Modeling",
