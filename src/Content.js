@@ -172,7 +172,7 @@ export const content = {
             image: Hero_person,
             hero_content: [
                 {
-                    count: `+${new Date(new Date() - new Date("2021-01-01")).getFullYear() - 1970}`,
+                    count: `+${new Date(new Date() - new Date("2022-01-01")).getFullYear() - 1970}`,
                     text: "Years of Experience in Web development And software development",
                 },
                 {
@@ -446,7 +446,7 @@ export const content = {
             image: Hero_person,
             hero_content: [
                 {
-                    count: `+${new Date(new Date() - new Date("2021-01-01")).getFullYear() - 1970}`,
+                    count: `+${new Date(new Date() - new Date("2022-01-01")).getFullYear() - 1970}`,
                     text: "An d'expérience en développement Web et en développement de logiciels",
                 },
                 {
