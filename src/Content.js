@@ -44,8 +44,7 @@ import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
 import project4 from "./assets/images/Projects/img4.png";
-import project5 from "./assets/images/Projects/img5.png";
-import project6 from "./assets/images/Projects/img6.png";
+import aman from "./assets/images/Projects/aman.png";
 import project7 from "./assets/images/Projects/img7.png";
 
 
@@ -330,6 +329,11 @@ export const content = {
             subtitle: "MY CREATION",
             project_content: [
                 {
+                    title: "SaaS Insurance Platform for Football Clubs using machine learning and blockchain",
+                    image: aman,
+                    githubLink: "https://github.com/2aman-lafr9a",
+                },
+                {
                     title: "Freelance website -- 'bricoll'",
                     image: bricoll,
                     githubLink: "https://github.com/sohaibMan/bricoll",
@@ -368,18 +372,7 @@ export const content = {
                     image: project4,
                     githubLink: "https://github.com/sohaibMan/Natours.github.io",
                 },
-                {
-                    title: "Meal delivered",
-                    link: "https://sohaibman.github.io/Omifood.github.io/",
-                    image: project5,
-                    githubLink: "https://github.com/sohaibMan/Omifood.github.io",
-                },
-                {
-                    title: "Bankist (bank website for learning purpose)",
-                    link: "https://sohaibman.github.io/Bankist.github.io/",
-                    image: project6,
-                    githubLink: "https://github.com/sohaibMan/Bankist.github.io",
-                },
+
             ],
         },
         Testimonials: {
@@ -611,6 +604,11 @@ export const content = {
             subtitle: "Ma création",
             project_content: [
                 {
+                    title: "Plateforme d'assurance SaaS pour les clubs de football en utilisant machine learning et blockchain",
+                    image: aman,
+                    githubLink: "https://github.com/2aman-lafr9a",
+                },
+                {
                     title: "site web de freealnce -- 'bricoll'",
                     image: bricoll,
                     githubLink: "https://github.com/sohaibMan/bricoll",
@@ -644,18 +642,6 @@ export const content = {
                     link: "https://sohaibman.github.io/Natours.github.io/",
                     image: project4,
                     githubLink: "https://github.com/sohaibMan/Natours.github.io",
-                },
-                {
-                    title: "Repas livré",
-                    link: "https://sohaibman.github.io/Omifood.github.io/",
-                    image: project5,
-                    githubLink: "https://github.com/sohaibMan/Omifood.github.io",
-                },
-                {
-                    title: "Bankist (site web de la banque)",
-                    link: "https://sohaibman.github.io/Bankist.github.io/",
-                    image: project6,
-                    githubLink: "https://github.com/sohaibMan/Bankist.github.io",
                 },
             ],
         },
