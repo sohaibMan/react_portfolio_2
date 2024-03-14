@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
-    "@types/react-dom": "^18.2.19",
+    "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "@wixc3/react-board": "^2.4.0",
     "autoprefixer": "^10.4.17",
