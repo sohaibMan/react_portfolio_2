@@ -30,12 +30,12 @@ const Hero = () => {
                     </h3>
                     <h4>{hero.title}</h4>
                     <br/>
-                    <div className="flex justify-end">
-                        <button className="btn">
-                            <a target={"_blank"} rel="noopener noreferrer"
-                               href={hero.btnLink}> {hero.btnText}</a>
-                        </button>
-                    </div>
+                    {/*<div className="flex justify-end">*/}
+                    {/*    <button className="btn">*/}
+                    {/*        <a target={"_blank"} rel="noopener noreferrer"*/}
+                    {/*           href={hero.btnLink}> {hero.btnText}</a>*/}
+                    {/*    </button>*/}
+                    {/*</div>*/}
                     <div className="flex flex-col gap-10 mt-10">
                         {hero.hero_content.map((content, i) => (
                             <div

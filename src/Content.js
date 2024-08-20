@@ -109,7 +109,7 @@ export const content = {
             title: "DevOps | Cloud architect",
             firstName: "SOHAIB",
             LastName: "MANAH",
-            btnText: "View my resume",
+            // btnText: "View my resume",
             btnLink: "https://www.canva.com/design/DAFltazUEpM/1HUGhv9zLupr7TU3NbZ68w/view",
             image: Hero_person,
             hero_content: [{
@@ -238,7 +238,7 @@ export const content = {
             firstName: "SOHAIB",
             LastName: "MANAH",
             btnText: "Consulter mon curriculum vitæ",
-            btnLink: "https://www.canva.com/design/DAFltazUEpM/1HUGhv9zLupr7TU3NbZ68w/view",
+            // btnLink: "https://www.canva.com/design/DAFltazUEpM/1HUGhv9zLupr7TU3NbZ68w/view",
             image: Hero_person,
             hero_content: [{
                 count: `+${new Date(new Date() - new Date("2022-01-01")).getFullYear() - 1970}`,
