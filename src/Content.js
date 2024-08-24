@@ -123,7 +123,7 @@ const cert_content = [{
 export const content = {
     en: {
         Nav, hero: {
-            title: "DevOps | OCI Cloud architect Professional",
+            title: "(DevOps + OCI) Professional",
             firstName: "SOHAIB",
             LastName: "MANAH",
             // btnText: "View my resume",
@@ -251,7 +251,7 @@ export const content = {
         },
     }, fr: {
         Nav, hero: {
-            title: "DevOps | OCI Cloud Architecte Professionnel",
+            title: "(DevOps | OCI) Professionnel",
             firstName: "SOHAIB",
             LastName: "MANAH",
             // btnText: "Consulter mon curriculum vitæ",
