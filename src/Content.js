@@ -26,7 +26,6 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 
 import cert1 from "./assets/images/Certifications/cert1.png";
 import cert2 from "./assets/images/Certifications/cert2.png";
-import cert4 from "./assets/images/Certifications/cert4.png";
 import cert5 from "./assets/images/Certifications/cert5.png";
 import cert6 from "./assets/images/Certifications/cert6.png";
 import cert7 from "./assets/images/Certifications/cert7.png";
@@ -82,15 +81,33 @@ const social_media = [{
     text: "sohaibesohaib", icon: TbBrandFiverr, link: "https://www.fiverr.com/sohaibesohaib",
 },];
 const cert_content = [{
+    title: "Oracle Certified Professional, Java SE 8 Programmer",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=CAC10CA6FEB07F7594AAA16490FF85E72A3996ED5907FDD76F786193B1AD4C23",
+    image: "https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE8.png",
+},{
+    title: "Oracle Cloud Infrastructure 2024 Certified DevOps Professional",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A88816F811CBECC96C98A98849FA24F215297A68B605E3052BFBAE19B20280FF",
+    image:  "https://brm-workforce.oracle.com/pdf/certview/images/OCI2024DOPOCP.png",
+},{
+    title: "Oracle Certified Associate, Java SE 8 Programmer",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=611586DC56727A99CFD820F677EED9809570F3AC73E3AE5C39D549FD7EFCE3C2",
+    image: "https://brm-workforce.oracle.com/pdf/certview/images/OCAJSE8.png",
+},{
+    title: "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=FE72ADBA433C5AB9A3F8BC8FA86259C5F51A804ECF6B37724495FB75E6DD7970",
+    image: "https://brm-workforce.oracle.com/pdf/certview/images/OCI24AICFA.png",
+},{
+    title: "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A88816F811CBECC96C98A98849FA24F2E5B9D63975CCB1088E7C3D9D63F230F4",
+    image: "https://brm-workforce.oracle.com/pdf/certview/images/OCI2024FNDCFA.png",
+},{
     title: "MongoDB Associate Developer",
-    link: "https://www.credly.com/badges/0de50e15-99bc-4edf-8f7c-e2df6c4725fb/",
+    link: "https://brm-workforce.oracle.com/pdf/certview/images/OCI24AICFA.png",
     image: cert1,
 }, {
     title: "Agile Project Management", link: 'https://coursera.org/share/a92c70e92b02890f7d7a5ab3deb418ab', image: cert8
 }, {
     title: "MongoDB Data Modeling", image: cert2, link: "https://learn.mongodb.com/c/lkxA2J6RTE2Ash0IL--EtA",
-}, {
-    title: "React + Redux ", link: "https://www.sololearn.com/certificates/CT-MHOKZQZV", image: cert4,
 }, {
     title: "Postman API Fundamentals Student Expert",
     link: "https://badgr.com/public/assertions/JKnbd3dAQwCPpg3dxr1n_A?identity__email=sohaib.manah@etu.uae.ac.ma",
@@ -106,7 +123,7 @@ const cert_content = [{
 export const content = {
     en: {
         Nav, hero: {
-            title: "DevOps | Cloud architect",
+            title: "DevOps | OCI Cloud architect Professional§",
             firstName: "SOHAIB",
             LastName: "MANAH",
             // btnText: "View my resume",
@@ -114,7 +131,7 @@ export const content = {
             image: Hero_person,
             hero_content: [{
                 count: `+${new Date(new Date() - new Date("2022-01-01")).getFullYear() - 1970}`,
-                text: "Years of Experience in Web development And software development",
+                text: "Years of Experience in Web development And  Cloud ",
             }, {
                 count: "10+", text: "Projects Worked in my career",
             },],
