@@ -81,6 +81,11 @@ const social_media = [{
     text: "sohaibesohaib", icon: TbBrandFiverr, link: "https://www.fiverr.com/sohaibesohaib",
 },];
 const cert_content = [{
+    title: "Oracle Cloud Infrastructure 2024 Certified Developer Professional",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A6899DA6F34ED5EF28441C50C3ADC540C22A5FE8B04C00DFBFD7A2327CAA8342",
+    image: "https://brm-workforce.oracle.com/pdf/certview/images/OCID2024CP.png",
+},
+{
     title: "Oracle Certified Professional, Java SE 8 Programmer",
     link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=CAC10CA6FEB07F7594AAA16490FF85E72A3996ED5907FDD76F786193B1AD4C23",
     image: "https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE8.png",
