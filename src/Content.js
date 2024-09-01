@@ -82,28 +82,28 @@ const social_media = [{
 },];
 const cert_content = [{
     title: "Oracle Cloud Infrastructure 2024 Certified Developer Professional",
-    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A6899DA6F34ED5EF28441C50C3ADC540C22A5FE8B04C00DFBFD7A2327CAA8342",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=62C57609853F17D04BC5C8213FE5F74514586122F8FA58C788102AFC03DFE33C",
     image: "https://brm-workforce.oracle.com/pdf/certview/images/OCID2024CP.png",
 },
 {
     title: "Oracle Certified Professional, Java SE 8 Programmer",
-    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=CAC10CA6FEB07F7594AAA16490FF85E72A3996ED5907FDD76F786193B1AD4C23",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7150FE2EA98D08F2D32A1F2DD4A5A487B04D95277185B268D04CEE1E1298F3AB",
     image: "https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE8.png",
 },{
     title: "Oracle Cloud Infrastructure 2024 Certified DevOps Professional",
-    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A88816F811CBECC96C98A98849FA24F215297A68B605E3052BFBAE19B20280FF",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=626266EE80DDDC838B6D5FFCD8567ABD36933ADEFF42EF705D948D1147967D74",
     image:  "https://brm-workforce.oracle.com/pdf/certview/images/OCI2024DOPOCP.png",
 },{
     title: "Oracle Certified Associate, Java SE 8 Programmer",
-    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=611586DC56727A99CFD820F677EED9809570F3AC73E3AE5C39D549FD7EFCE3C2",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7D311F9484B6360A03BC18199C0FDBFCD7B252935AB01626B20902BF93BA49DB",
     image: "https://brm-workforce.oracle.com/pdf/certview/images/OCAJSE8.png",
 },{
     title: "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
-    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=FE72ADBA433C5AB9A3F8BC8FA86259C5F51A804ECF6B37724495FB75E6DD7970",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=2766D12BC1722B59E051F38F5B122C78B2119732F2AF774A430314D257CF0B5F",
     image: "https://brm-workforce.oracle.com/pdf/certview/images/OCI24AICFA.png",
 },{
     title: "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
-    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A88816F811CBECC96C98A98849FA24F2E5B9D63975CCB1088E7C3D9D63F230F4",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=626266EE80DDDC838B6D5FFCD8567ABD04D625908DC961DB0D8583FF3C5E80D4",
     image: "https://brm-workforce.oracle.com/pdf/certview/images/OCI2024FNDCFA.png",
 },{
     title: "MongoDB Associate Developer",
