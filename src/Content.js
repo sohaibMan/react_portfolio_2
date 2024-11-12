@@ -128,11 +128,11 @@ const cert_content = [{
 export const content = {
     en: {
         Nav, hero: {
-            title: "(DevOps + OCI) Professional",
+            title: "DevOps Engineer & Cloud Specialist",
             firstName: "SOHAIB",
             LastName: "MANAH",
-            // btnText: "View my resume",
-            // btnLink: "https://www.canva.com/design/DAFltazUEpM/1HUGhv9zLupr7TU3NbZ68w/view",
+            //btnText: "View my resume",
+            //btnLink: "https://www.canva.com/design/DAFltazUEpM/1HUGhv9zLupr7TU3NbZ68w/view",
             image: Hero_person,
             hero_content: [{
                 count: `+${new Date(new Date() - new Date("2022-01-01")).getFullYear() - 1970}`,
@@ -256,7 +256,7 @@ export const content = {
         },
     }, fr: {
         Nav, hero: {
-            title: "(DevOps | OCI) Professionnel",
+            title: "Ingénieur DevOps et spécialiste du cloud",
             firstName: "SOHAIB",
             LastName: "MANAH",
             // btnText: "Consulter mon curriculum vitæ",
